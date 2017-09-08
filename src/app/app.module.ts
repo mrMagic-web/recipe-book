@@ -5,10 +5,10 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header.component';
-import { RecepiesComponent } from './recepies/recepies.component';
-import { RecepieListComponent } from './recepies/recepie-list/recepie-list.component';
-import { RecepieItemComponent } from './recepies/recepie-list/recepie-item.component';
-import { RecepieDetailComponent } from './recepies/recepie-detail/recepie-detail.component';
+import { RecipesComponent } from './recipes/recipes.component';
+import { RecipeListComponent } from './recipes/recipe-list/recipe-list.component';
+import { RecipeItemComponent } from './recipes/recipe-list/recipe-item.component';
+import { RecipeDetailComponent } from './recipes/recipe-detail/recipe-detail.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingListAddComponent } from './shopping-list/shopping-list-add.component';
 
@@ -16,10 +16,10 @@ import { ShoppingListAddComponent } from './shopping-list/shopping-list-add.comp
   declarations: [
     AppComponent,
     HeaderComponent,
-    RecepiesComponent,
-    RecepieListComponent,
-    RecepieItemComponent,
-    RecepieDetailComponent,
+    RecipesComponent,
+    RecipeListComponent,
+    RecipeItemComponent,
+    RecipeDetailComponent,
     ShoppingListComponent,
     ShoppingListAddComponent
   ],
